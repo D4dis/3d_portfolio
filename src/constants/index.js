@@ -139,7 +139,7 @@ export const experiences = [
     title: "PHP/Python Developer",
     company_name: "Gendarmerie",
     icon: gendarmerie,
-    iconBg: "#accbe1",
+    iconBg: "#bfccf5",
     date: "October 2024 - December 2024",
     points: [
       "Creating a time tracking manager.",

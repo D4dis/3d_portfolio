@@ -9,7 +9,7 @@ const About = () => {
     <section className='max-container'>
       <h1 className='head-text'>Hello, I&apos;m <span className='blue-gradient_text font-semibold drop-shadow'>Daris</span></h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Software Engineer based in France, specializing in technical education through hands-on learning and building applications.</p>
+        <p>Junior developer based in France, building front-end and back-end applications.</p>
       </div>
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
@@ -27,7 +27,7 @@ const About = () => {
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>I've worked with all sorts of companies, leveling up my skills and teaming up with smart people. Here's the rundown:</p>
+          <p>I&apos;ve worked with a few companies and I&apos;m looking for more opportunities. Here&apos;s the rundown:</p>
         </div>
 
         <div className='mt-12 flex'>

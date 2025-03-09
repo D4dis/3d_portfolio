@@ -1,12 +1,38 @@
-# React + Vite
+<h2 align="center">
+ 3D Portfolio<br/>
+</h2>
+<div align="center">
+  <img alt="Demo" src="" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
 
-Currently, two official plugins are available:
+<center>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</center>
+
+## Built With
+
+My personal portfolio <a href="https://daris-3d-portfolio.netlify.app/" target="_blank">3D Portfolio</a> which features some of my github projects as well as my resume and technical skills.<br/>
+
+This project was built using these technologies.
+
+- React.js
+- Three.js
+- Tailwind
+- CSS
+
+## Features
+
+**🌐 3D HomePage**
+
+**📖 Multi-Page Layout**
+
+**🎨 Styled with React-Tailwind and Css with easy to customize colors**
+
+**📱 Fully Responsive**

@@ -2,7 +2,7 @@
  3D Portfolio<br/>
 </h2>
 <div align="center">
-  <img alt="Demo" src="" />
+  <img alt="Demo" src="/src/assets/images/readme.png" />
 </div>
 
 <br/>

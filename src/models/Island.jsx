@@ -92,9 +92,17 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   useEffect(() => {
     const canvas = gl.domElement;
+
+    // Événements pour souris et tactile
     canvas.addEventListener('pointerdown', handlePointerDown);
     canvas.addEventListener('pointerup', handlePointerUp);
     canvas.addEventListener('pointermove', handlePointerMove);
+
+    // Événements tactiles
+    canvas.addEventListener('touchstart', handlePointerDown, { passive: false });
+    canvas.addEventListener('touchend', handlePointerUp, { passive: false });
+    canvas.addEventListener('touchmove', handlePointerMove, { passive: false });
+
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('keyup', handleKeyUp);
 
@@ -102,10 +110,16 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
       canvas.removeEventListener('pointerdown', handlePointerDown);
       canvas.removeEventListener('pointerup', handlePointerUp);
       canvas.removeEventListener('pointermove', handlePointerMove);
+
+      canvas.removeEventListener('touchstart', handlePointerDown);
+      canvas.removeEventListener('touchend', handlePointerUp);
+      canvas.removeEventListener('touchmove', handlePointerMove);
+
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('keyup', handleKeyUp);
-    }
-  }, [gl, handlePointerDown, handlePointerUp, handlePointerMove])
+    };
+  }, [gl, handlePointerDown, handlePointerUp, handlePointerMove]);
+
 
   return (
     <a.group ref={islandRef} {...props}>

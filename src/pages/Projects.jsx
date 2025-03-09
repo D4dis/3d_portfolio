@@ -42,6 +42,9 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <div className='mb-20'>
+        <p className='text-center font-semibold text-2xl'>More to come...</p>
+      </div>
       <hr className='border-slate-200' />
 
       <CTA />

@@ -224,9 +224,9 @@ export const projects = [
   {
     iconUrl: portfolio,
     theme: 'btn-back-black',
-    name: 'First Portfolio React Three Fiber',
-    description: 'Developed a web my first react three fiber porfolio',
-    link: 'https://github.com/D4dis/portfolio-threejs',
+    name: 'First Portfolio',
+    description: 'Developed a web my first HTML/CSS/JS porfolio',
+    link: 'https://github.com/D4dis/portfolio',
   },
   // {
   //   iconUrl: pricewise,

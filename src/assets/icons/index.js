@@ -29,6 +29,7 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
+import ak47white from './ak47white.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
@@ -64,6 +65,7 @@ export {
     threads,
     arrow,
     contact,
+    ak47white,
     soundon,
     soundoff
 }

@@ -7,6 +7,7 @@ import github from './github.svg'
 import html from './html.svg'
 import java from './java.svg'
 import javascript from './javascript.svg'
+import message from './message.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
@@ -33,9 +34,9 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
-import ak47white from './ak47white.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import squid from './squid.svg'
 import windows11 from './windows11.svg'
 
 export {
@@ -48,6 +49,7 @@ export {
   html,
   java,
   javascript,
+  message,
   mongodb,
   motion,
   mui,
@@ -74,8 +76,8 @@ export {
   threads,
   arrow,
   contact,
-  ak47white,
   soundon,
   soundoff,
+  squid,
   windows11
 }

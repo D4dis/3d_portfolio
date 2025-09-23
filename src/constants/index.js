@@ -13,6 +13,7 @@ import {
   java,
   javascript,
   linkedin,
+  message,
   mongodb,
   motion,
   mui,
@@ -29,12 +30,12 @@ import {
   sass,
   snapgram,
   summiz,
+  squid,
   tailwindcss,
   threejs,
   threads,
   typescript,
   windows11,
-  ak47white
 } from "../assets/icons";
 
 export const skills = [
@@ -170,18 +171,32 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  // {
+  //   iconUrl: portfolio,
+  //   theme: 'btn-back-black',
+  //   name: 'First Portfolio',
+  //   description: 'Developed my first HTML/CSS/JS porfolio',
+  //   link: 'https://github.com/D4dis/portfolio',
+  // },
+  // {
+  //   iconUrl: ak47white,
+  //   theme: 'btn-back-black',
+  //   name: 'Better CS2 Inventory | Tracker (in progress)',
+  //   description: 'Developed a React.js/Tailwind web app to track CS2 inventory',
+  //   link: 'https://github.com/D4dis/portfolio',
+  // },
   {
-    iconUrl: portfolio,
-    theme: 'btn-back-black',
-    name: 'First Portfolio',
-    description: 'Developed my first HTML/CSS/JS porfolio',
-    link: 'https://github.com/D4dis/portfolio',
+    iconUrl: squid,
+    theme: 'btn-back-green',
+    name: 'SplatMapRotation',
+    description: 'Developed a Discord bot in JavaScript for Splatoon 1 map rotations',
+    link: 'https://github.com/D4dis/splatoon-bot',
   },
   {
-    iconUrl: ak47white,
+    iconUrl: message,
     theme: 'btn-back-black',
-    name: 'Better CS2 Inventory | Tracker (in progress)',
-    description: 'Developed a React.js/Tailwind web app to track CS2 inventory',
-    link: 'https://github.com/D4dis/portfolio',
+    name: 'TameTheFox (anonyme chat)',
+    description: 'Developed a Angular chat app in group for a school project',
+    link: 'https://github.com/D4dis/tamethefox',
   },
 ];

@@ -1,3 +1,4 @@
+import archlinux from './archlinux.svg'
 import angular from './angular.svg'
 import css from './css.svg'
 import express from './express.svg'
@@ -35,8 +36,10 @@ import contact from './contact.svg'
 import ak47white from './ak47white.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import windows11 from './windows11.svg'
 
 export {
+  archlinux,
   angular,
   css,
   express,
@@ -73,5 +76,6 @@ export {
   contact,
   ak47white,
   soundon,
-  soundoff
+  soundoff,
+  windows11
 }

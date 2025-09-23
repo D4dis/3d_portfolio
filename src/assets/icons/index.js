@@ -1,8 +1,10 @@
+import angular from './angular.svg'
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
+import java from './java.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
@@ -22,6 +24,7 @@ import car from './car.svg'
 import estate from './estate.svg'
 import php from './php.svg'
 import portfolio from './portfolio.svg'
+import postgresql from './postgresql.svg'
 import pricewise from './pricewise.svg'
 import python from './python.svg'
 import snapgram from './snapgram.svg'
@@ -34,38 +37,41 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 
 export {
-    css,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    mongodb,
-    motion,
-    mui,
-    mysql,
-    nextjs,
-    nodejs,
-    react,
-    redux,
-    sass,
-    tailwindcss,
-    typescript,
-    linkedin,
-    twitter,
-    car,
-    estate,
-    php,
-    portfolio,
-    pricewise,
-    python,
-    snapgram,
-    summiz,
-    threejs,
-    threads,
-    arrow,
-    contact,
-    ak47white,
-    soundon,
-    soundoff
+  angular,
+  css,
+  express,
+  git,
+  github,
+  html,
+  java,
+  javascript,
+  mongodb,
+  motion,
+  mui,
+  mysql,
+  nextjs,
+  nodejs,
+  react,
+  redux,
+  sass,
+  tailwindcss,
+  typescript,
+  linkedin,
+  twitter,
+  car,
+  estate,
+  php,
+  portfolio,
+  postgresql,
+  pricewise,
+  python,
+  snapgram,
+  summiz,
+  threejs,
+  threads,
+  arrow,
+  contact,
+  ak47white,
+  soundon,
+  soundoff
 }

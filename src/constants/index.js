@@ -1,5 +1,6 @@
 import { gendarmerie, meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+  angular,
   car,
   contact,
   css,
@@ -8,6 +9,7 @@ import {
   git,
   github,
   html,
+  java,
   javascript,
   linkedin,
   mongodb,
@@ -18,6 +20,7 @@ import {
   nodejs,
   php,
   portfolio,
+  postgresql,
   pricewise,
   python,
   react,
@@ -48,14 +51,19 @@ export const skills = [
     name: "Tailwind CSS",
     type: "Frontend",
   },
-  // {
-  //   imageUrl: express,
-  //   name: "Express",
-  //   type: "Backend",
-  // },
   {
     imageUrl: javascript,
     name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: angular,
+    name: "Angular",
     type: "Frontend",
   },
   {
@@ -74,6 +82,11 @@ export const skills = [
     type: "Backend",
   },
   {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
     imageUrl: php,
     name: "PHP",
     type: "Backend",
@@ -84,8 +97,18 @@ export const skills = [
     type: "Backend",
   },
   {
+    imageUrl: java,
+    name: "Java",
+    type: "Backend",
+  },
+  {
     imageUrl: mysql,
     name: "MYSQL",
+    type: "Database",
+  },
+  {
+    imageUrl: postgresql,
+    name: "PostgreSQL",
     type: "Database",
   },
   {
@@ -128,16 +151,12 @@ export const skills = [
   //   name: "Sass",
   //   type: "Frontend",
   // },
-  // {
-  //   imageUrl: typescript,
-  //   name: "TypeScript",
-  //   type: "Frontend",
-  // }
+
 ];
 
 export const experiences = [
   {
-    title: "PHP/Python Developer",
+    title: "PHP/Js Developer",
     company_name: "Gendarmerie",
     icon: gendarmerie,
     iconBg: "#bfccf5",

@@ -1,5 +1,6 @@
 import archlinux from './archlinux.svg'
 import angular from './angular.svg'
+import bash from './bash.svg'
 import css from './css.svg'
 import express from './express.svg'
 import git from './git.svg'
@@ -42,6 +43,7 @@ import windows11 from './windows11.svg'
 export {
   archlinux,
   angular,
+  bash,
   css,
   express,
   git,

@@ -1,7 +1,8 @@
-import { gendarmerie, meta, shopify, starbucks, tesla } from "../assets/images";
+import { agoragom, gendarmerie, meta, shopify, starbucks, tesla } from "../assets/images";
 import {
   archlinux,
   angular,
+  bash,
   car,
   contact,
   css,
@@ -110,9 +111,19 @@ export const skills = [
     type: "Database",
   },
   {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+  },
+  {
     imageUrl: postgresql,
     name: "PostgreSQL",
     type: "Database",
+  },
+  {
+    imageUrl: bash,
+    name: "Bash",
+    type: "Automation",
   },
   {
     imageUrl: git,
@@ -139,7 +150,7 @@ export const skills = [
 export const experiences = [
   {
     title: "PHP/Js Developer",
-    company_name: "Gendarmerie",
+    company_name: "Gendarmerie (Montpellier)",
     icon: gendarmerie,
     iconBg: "#bfccf5",
     date: "October 2024 - December 2024",
@@ -148,6 +159,19 @@ export const experiences = [
       "Creation of a reporting system.",
       "Optimization of a site.",
       "Creating a Text Chat.",
+    ],
+  },
+  {
+    title: "Next.js Developper",
+    company_name: "Agoragom (Montpellier)",
+    icon: agoragom,
+    iconBg: "#EF5F22",
+    date: "December 2025 - Mars 2026",
+    points: [
+      "Restarting the CRM project from scratch",
+      "Creating project specifications",
+      "Redesigning Figma mockups",
+      "Start of the development phase (authentication + admin section)",
     ],
   },
 ];

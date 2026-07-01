@@ -41,7 +41,7 @@ const Contact = () => {
         hideAlert();
         setCurrentAnimation('idle');
         setForm({ name: '', email: '', message: '' });
-      }, [3000]);
+      }, 3000);
     }).catch((error) => {
       setIsLoading(false);
       setCurrentAnimation('idle');
@@ -105,7 +105,6 @@ const Contact = () => {
             className='btn'
             disabled={isLoading}
             onFocus={handleFocus}
-            onBlur={handleBlur}
           >
             {isLoading ? 'Sending...' : 'Send Message'}
           </button>

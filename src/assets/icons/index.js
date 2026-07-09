@@ -2,6 +2,7 @@ import archlinux from './archlinux.svg'
 import angular from './angular.svg'
 import bash from './bash.svg'
 import css from './css.svg'
+import discord from './discord.svg'
 import express from './express.svg'
 import git from './git.svg'
 import github from './github.svg'
@@ -45,6 +46,7 @@ export {
   angular,
   bash,
   css,
+  discord,
   express,
   git,
   github,

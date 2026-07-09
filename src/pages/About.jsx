@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills, experiences } from '../constants';
+import { skills, experiences, socialLinks } from '../constants';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA';
@@ -70,6 +70,26 @@ const About = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
+        </div>
+
+        <div className='pt-16'>
+          <h3 className='subhead-text'>Socials</h3>
+          <div className='mt-5 flex flex-col gap-3 text-slate-500'>
+            <p>My differents social networks where you can interact with me</p>
+          </div>
+
+          <div className='mt-16 flex flex-wrap gap-12'>
+            {socialLinks.map((socialLinks) => (
+              <div className='block-container w-20 h-20'>
+                <div className='btn-back rounded-xl' />
+                <div className='btn-front rounded-xl flex justify-center items-center'>
+                  <a href={socialLinks.link} className='w-full h-full flex justify-center items-center'>
+                    <img src={socialLinks.iconUrl} alt={socialLinks.name} title={socialLinks.name} className='w-1/2 h-1/2 object-contain' />
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
       </div>
